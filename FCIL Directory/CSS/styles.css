@@ -1,0 +1,37 @@
+body {
+  font-family: Lato;
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  color: white;
+  background: linear-gradient(green, yellow);
+  background-size: cover;
+  background-position: center;
+}
+image {
+  width: 10px;
+  float: left;
+}
+h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: 0px;
+}
+main {
+}
+p {
+  font-family: "Nunito-Sans";
+  color: darkgreen;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  font-weight: bold;
+}
+main {
+}
