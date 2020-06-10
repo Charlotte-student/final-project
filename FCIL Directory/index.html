@@ -46,19 +46,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Research Guides</a>
-            </li>
+            </li> 
             <li class="nav-item">
-              <a class="nav-link" href="#">Databases</a>
-            </li>
+              <a class="nav-link" href="#">Databases</a> 
+            </li> 
             <li class="nav-item">
-              <a
-                class="nav-link href="#">Books</a>
+              <a class="nav-link" href="#">Books</a>
             </li>
           </ul>
         </div>
@@ -66,99 +63,82 @@
       <div class="container">
         <h1>Foreign, Comparative, and International Law Directory</h1>
         <p>
-          A basic introduction to central resources in the world of
+          A basic introduction to central resources for
           international and foreign legal research.
         </p>
       </div>
+      
     </header>
     <main>
-      <div class="container d-flex">
-        <div class="row max-width=100%">
-          <div class="col-sm max-width=100%">
-            <img src="Images/Foreign-Law-Text.jpg"  alt="Picture of law text in German" />
-          </div>
-          <div class="col-sm max-width=100%">
-            <img src="Images\earth-11015__480.jpg" alt="earth from outer space" />
-          </div>
-          <div class="col-sm max-width=100%">
-            <img src="Images\flags.jpg" alt="multinational flags" />
-          </div>
-        </div>
-      </div>
-          <main class="container">
-            <div class="row py-5">
-              <div class="col">
-                <form>
-                  <div class="form-group">
-                    <label for="Resource-filter">Resource Filter</label>
-                    <input type="text" class="form-control" id="resource-filter" placeholder="Filter resources" />
-                  </div>
-                </form>
+     
+      <div class="container pt-0 mt-0">
+        <div class="row">
+          <form>
+              
+          <div class="form-group pt-1 mt-1">
+          <label for="resource-select">Choose resource type</label>
+          <select class="form-control pt-1 mt-1" id="resource-select">
+            <option value="books">Books</option>
+            <option value="researchGuides">Research Guides</option>
+            <option value="databases">Databases</option>
+          </select>
           
-                <table class="table table-striped table-hover movies" width="100%">
-                  <thead class="thead-dark">
-                    <tr>
-                      <th scope="col" class="non-numeric">Resource Type</th>
-                      <th scope="col">Title</th>
-                      <th scope="col">ISBN or URL</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                </table>
-              </div>
-            </div>
-            <div class="container pt-5 mt-5">
-              <div class="row">
-                <div class="col-sm-6 col-md-4">
-                  <div class="card mx-auto mt-3 mb-3 shadow" style="max-width: 100%;">
-                    <img src="Images\manual-3684460_640.jpg" class="card-img-top"
-                      alt="Picture of woman pointing to a guide for questions" />
-                    <div class="card-body">
-                      <h5 class="card-title">Research Guides</h5>
-                      <h6 class="subtitle">Help with research</h6>
-                      <p class="card-text">
-                        Library research guides provide information about how to conduct legal
-                        research. They are short, informational introductions to resources and
-                        research methods created by librarians who are familiar with
-                        researching a particular area of law.
-                      </p>
-                      <ul>
-                        <li>Georgetown University</li>
-                        <li>University of Michigan</li>
-                        <li>University of California-Berkeley</li>
-                        <li>University of Washington</li>
-                      </ul>
-                      <a href="#" class="btn btn-primary pr-1 pl-1">Read more</a>
-                      <a href="#" class="card-link ml-1">View site</a>
-                    </div>
-                  </div>
-                </div>
+      
+          
+          </div>
+          </main>
+        </div>
+        </div>
+        </div>
+          <div class="form-group">
+            <label for="name-output">Resources</label>
+            <output type="text" class="form-control" id="name-output" placeholder="Resource Name">
+          </div>
+          </form>
+          
+        
+        <div class="row">
           <div class="col-sm-6 col-md-4">
             <div class="card mx-auto mt-3 mb-3 shadow" style="max-width: 100%;">
-              <img src="Images\books-690219_640.jpg" class="card-img-top" alt="Picture of book stack" />
+              <img src="Images\manual-3684460_640.jpg" class="card-img-top"
+              alt="Picture of woman pointing to a guide for questions">
               <div class="card-body">
-                <h5 class="card-title">Books</h5>
-                <h6 class="subtitle">Coursebooks and research texts</h6>
+                <h5 class="card-title">Research Guides</h5>
+                
+                <h6 class="subtitle">Help with research</h6>
                 <p class="card-text">
-                  A selection of coursebooks for foreign and international legal research 
-                  explaining how to research foreign and international law, sources, and types of law.
+                Library research guides are short informational introductions to resources and
+                research methods created by librarians who are familiar with
+                researching a particular area of law.
                 </p>
                 <ul>
-                  <li>International Legal Research in a Nutshell by Marci Hoffman</li>
-                  <li>
-                    Legal Research Methods in a Modern World : a coursebook by Paul
-                    Lomio
-                  </li>
-                  <li>
-                    International and Foreign Legal Research : a coursebook by Marci
-                    Hoffman
-                  </li>
-                  <li>
-                    International Legal Research in a Global Community by Heidi Kuehl
-                  </li>
+                <li><a href="https://guides.ll.georgetown.edu/ForeignandComparativeLaw">Georgetown University</a></li>
+                <li><a href="https://libguides.law.umich.edu/fcil">University of Michigan</a></li>
+                <li><a href="https://www.law.berkeley.edu/library/guide.php?id=56">University of California-Berkeley</a></li>
+                <li><a href="https://guides.lib.uw.edu/law/guides/forintlUniversity of Washington">University of Washington</a></li>
                 </ul>
-                <a href="#" class="btn btn-primary pr-1 pl-1">Read more</a>
-                <a href="#" class="card-link ml-1">View site</a>
+                <a href="https://www.google.com/" class="btn btn-primary pr-1 pl-1">Search the Web</a>
+      </div>
+        </div>
+          </div>
+      <div class="col-sm-6 col-md-4">
+       <div class="card mx-auto mt-3 mb-3 shadow" style="max-width: 100%;">
+        <img src="Images\books-690219_640.jpg" class="card-img-top" alt="Picture of book stack" />
+          <div class="card-body">
+          <h5 class="card-title">Books</h5>
+          <h6 class="subtitle">Coursebooks and research texts</h6>
+          <p class="card-text">
+          A selection of coursebooks for foreign and international legal research that explain
+                  how to research foreign and international law, sources, and types of law.
+          </p>
+          <ul>
+          <li><a href="https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/1q8ifqs/CP71254310990001451">International Legal Research in a Nutshell by Marci Hoffman</a></li>
+          <li><a href="https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/1q8ifqs/CP71229516950001451">Legal Research in a Modern World:  A Coursebook by Paul Lomio, et al."</a></li>
+          <li><a href="https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/1q8ifqs/CP71199385270001451">International and Foreign Legal Research : a Coursebook by Marci
+          Hoffman & Mary Rumsey</a></li>
+          <li><a href="https://alliance-primo.hosted.exlibrisgroup.com/permalink/f/1q8ifqs/CP71263999050001451">International Legal Research in a Global Community by Heidi Kuehl</a></li>
+          </ul>
+          <a href="https://lib.law.uw.edu/" class="btn btn-primary pr-1 pl-1">UW Law Library</a>
               </div>
             </div>
           </div>
@@ -168,6 +148,7 @@
               <img src="Images\database-3967926_640.jpg" class="card-img-top" alt="Picture of computer screen and data" />
               <div class="card-body">
                 <h5 class="card-title">Free Web Databases</h5>
+                <id="card-titleFreeWebDatabases">
                 <h6 class="subtitle">Journal articles, codes, and more</h6>
                 <p class="card-text">
                   Collections of journal articles, electronic publications, 
@@ -175,58 +156,19 @@
                   legal research.
                 </p>
                 <ul>
-                  <li>GlobaLex</li>
-                  <li>WorldLii</li>
-                  <li>Global Legal Information Network "GLIN"</li>
-                  <li>EUR-Lex</li>
-                  <li>Unilex</li>
+                  <li><a href="https://nyulawglobal.org/globalex/">GlobaLex</li></a>
+                  <li><a href="http://www.worldlii.org/">WorldLii</li></a>
+                  <li><a href="https://eur-lex.europa.eu/homepage.html?locale=en">EUR-Lex</li></a>
+                  <li><a href="http://www.unilex.info/">Unilex</li></a>
                 </ul>
-                <a href="#" class="btn btn-primary pr-1 pl-1">Read more</a>
-                <a href="#" class="card-link ml-1">View sites</a>
+                <a href="https://www.google.com/" class="btn btn-primary pr-1 pl-1">Search the Web</a>
               </div>
             </div>
           </div>
           </div>
           </div>
           </main>
-
-        <h2>Research Guides</h2>
-        <p>
-          Library research guides provide information about how to conduct legal
-          research. They are short, informational introductions to resources and
-          research methods created by librarians who are familiar with
-          researching a particular area of law.
-        </p>
-        <ul>
-          <li>Georgetown University</li>
-          <li>University of Michigan</li>
-          <li>University of California-Berkeley</li>
-          <li>University of Washington</li>
-        </ul>
-        <h2>Free Web Databases</h2>
-        <ul>
-          <li>GlobaLex</li>
-          <li>WorldLii</li>
-          <li>Global Legal Information Network "GLIN"</li>
-          <li>EUR-Lex</li>
-          <li>Unilex</li>
-        </ul>
-        <h2>Books</h2>
-        <ul>
-          <li>International Legal Research in a Nutshell by Marci Hoffman</li>
-          <li>
-            Legal Research Methods in a Modern World : a coursebook by Paul
-            Lomio
-          </li>
-          <li>
-            International and Foreign Legal Research : a coursebook by Marci
-            Hoffman
-          </li>
-          <li>
-            International Legal Research in a Global Community by Heidi Kuehl
-          </li>
-        </ul>
-      </div>
+              </div>
     </main>
     <footer></footer>
     <script
@@ -244,5 +186,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="directory.js"></script>
+    <script src="app.js"></script>
+  
+
   </body>
 </html>
